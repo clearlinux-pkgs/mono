@@ -1,0 +1,4 @@
+--with-tls=pthread
+--target=x86_64-generic-linux-gnu
+--enable-static
+--with-static_mono=yes
