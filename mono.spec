@@ -4,7 +4,7 @@
 #
 Name     : mono
 Version  : 5.12.0.226
-Release  : 1
+Release  : 2
 URL      : http://download.mono-project.com/sources/mono/mono-5.12.0.226.tar.bz2
 Source0  : http://download.mono-project.com/sources/mono/mono-5.12.0.226.tar.bz2
 Summary  : Mono Runtime
@@ -109,15 +109,16 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C
-export SOURCE_DATE_EPOCH=1529644580
+export SOURCE_DATE_EPOCH=1529686754
 %configure --disable-static --with-sgen \
 --with-ikvm \
 --without-moonlight \
---target=x86_64-generic-linux-gnu
+--target=x86_64-generic-linux-gnu \
+--disable-btls-lib
 make  %{?_smp_mflags}
 
 %install
-export SOURCE_DATE_EPOCH=1529644580
+export SOURCE_DATE_EPOCH=1529686754
 rm -rf %{buildroot}
 mkdir -p %{buildroot}/usr/share/doc/mono
 cp LICENSE %{buildroot}/usr/share/doc/mono/LICENSE
@@ -3029,7 +3030,6 @@ cp mcs/class/Mono.C5/LICENSE.txt %{buildroot}/usr/share/doc/mono/mcs_class_Mono.
 /usr/lib64/libMonoSupportW.so
 /usr/lib64/libikvm-native.so
 /usr/lib64/libmono-2.0.so
-/usr/lib64/libmono-btls-shared.so
 /usr/lib64/libmono-profiler-aot.so
 /usr/lib64/libmono-profiler-coverage.so
 /usr/lib64/libmono-profiler-log.so
