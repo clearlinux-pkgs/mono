@@ -1,0 +1,57 @@
+Configure miss: sys/utime.h usability
+Configure miss: sys/utime.h presence
+Configure miss: libproc.h usability
+Configure miss: libproc.h presence
+Configure miss: libproc.h
+Configure miss: _finite
+Configure miss: _finite in math.h
+Configure miss: clang
+Configure miss: ninja
+Configure miss: preceeding underscore in symbols
+Configure miss: sched_setaffinity from glibc < 2.3.4
+Configure miss: SOL_TCP
+Configure miss: IP_DONTFRAG
+Configure miss: IP_DONTFRAGMENT
+Configure miss: pthread_np.h usability
+Configure miss: pthread_np.h presence
+Configure miss: pthread_np.h
+Configure miss: pthread_attr_get_np
+Configure miss: pthread_cond_timedwait_relative_np
+Configure miss: pthread_get_stacksize_np
+Configure miss: pthread_get_stackaddr_np
+Configure miss: isfinite
+Configure miss: sys/event.h usability
+Configure miss: sys/event.h presence
+Configure miss: sys/event.h
+Configure miss: sockaddr_in.sin_len
+Configure miss: sockaddr_in6.sin6_len
+Configure miss: checklist.h usability
+Configure miss: checklist.h presence
+Configure miss: checklist.h
+Configure miss: pathconf.h usability
+Configure miss: pathconf.h presence
+Configure miss: pathconf.h
+Configure miss: sys/extattr.h usability
+Configure miss: sys/extattr.h presence
+Configure miss: sys/extattr.h
+Configure miss: sys/vfstab.h usability
+Configure miss: sys/vfstab.h presence
+Configure miss: sys/vfstab.h
+Configure miss: getfsstat
+Configure miss: struct stat.st_atimespec
+Configure miss: struct kinfo_proc.kp_proc
+Configure miss: CommonCrypto/CommonDigest.h usability
+Configure miss: CommonCrypto/CommonDigest.h presence
+Configure miss: CommonCrypto/CommonDigest.h
+Configure miss: aintl in -lsunmath
+Configure miss: if big-arrays are to be enabled
+Configure miss: localcharset.h usability
+Configure miss: localcharset.h presence
+Configure miss: localcharset.h
+Configure miss: locale_charset in -liconv
+Configure miss: locale_charset in -lcharset
+Configure miss: xlc
+Configure miss: sys/dg_sys_info.h usability
+Configure miss: sys/dg_sys_info.h presence
+Configure miss: sys/dg_sys_info.h
+Configure miss: whether Solaris gcc optimization fix is necessary

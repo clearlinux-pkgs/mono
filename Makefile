@@ -1,5 +1,5 @@
 PKG_NAME := mono
-URL := https://github.com/mono/mono/archive/mono-5.2.0.215.tar.gz
-
+URL = http://download.mono-project.com/sources/mono/mono-5.12.0.226.tar.bz2
+ARCHIVES = 
 
 include ../common/Makefile.common
