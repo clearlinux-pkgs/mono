@@ -1,0 +1,7 @@
+Do not add any patches that change the functionality of mono.  Doing so would
+be considered making a derivative of mono and would violate the no-derivative
+clause of its CC-BY-ND-4.0 license.
+
+This means the package *cannot* carry CVE patches, but *may* carry patches that
+optimize for IA.  If a CVE needs patched, and a patch is present in mono's
+source tree, the version of mono distributed would need updated.
