@@ -1,6 +1,6 @@
 Name     : mono
 Version  : 5.12.0.226
-Release  : 3
+Release  : 4
 URL      : http://download.mono-project.com/sources/mono/mono-5.12.0.226.tar.bz2
 Source0  : http://download.mono-project.com/sources/mono/mono-5.12.0.226.tar.bz2
 Summary  : Mono Runtime
