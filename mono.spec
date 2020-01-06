@@ -1,6 +1,6 @@
 Name     : mono
 Version  : 5.12.0.226
-Release  : 5
+Release  : 6
 URL      : http://download.mono-project.com/sources/mono/mono-5.12.0.226.tar.bz2
 Source0  : http://download.mono-project.com/sources/mono/mono-5.12.0.226.tar.bz2
 Summary  : Mono Runtime
@@ -169,6 +169,9 @@ cp mcs/class/referencesource/LICENSE.txt %{buildroot}/usr/share/doc/mono/mcs_cla
 cp mcs/class/Mono.C5/LICENSE.txt %{buildroot}/usr/share/doc/mono/mcs_class_Mono.C5_LICENSE.txt
 %make_install
 %find_lang mcs
+sed -i '1s|^|#!/usr/bin/env python\n|' %{buildroot}/usr/bin/mono-gdb.py
+sed -i '1s|^|#!/usr/bin/env python\n|' %{buildroot}/usr/bin/mono-sgen-gdb.py
+chmod 0755 %{buildroot}/usr/bin/mono-{,sgen-}gdb.py
 
 %files
 %defattr(-,root,root,-)
