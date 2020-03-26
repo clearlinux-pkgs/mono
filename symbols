@@ -256,7 +256,6 @@ libMonoPosixHelper.so:Mono_Posix_Syscall_setxattr
 libMonoPosixHelper.so:Mono_Posix_Syscall_socketpair
 libMonoPosixHelper.so:Mono_Posix_Syscall_stat
 libMonoPosixHelper.so:Mono_Posix_Syscall_statvfs
-libMonoPosixHelper.so:Mono_Posix_Syscall_stime
 libMonoPosixHelper.so:Mono_Posix_Syscall_strerror_r
 libMonoPosixHelper.so:Mono_Posix_Syscall_swab
 libMonoPosixHelper.so:Mono_Posix_Syscall_sync

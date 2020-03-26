@@ -1,2 +1,9 @@
 # This file contains additional build requirements that did not get
 # picked up automatically. One name per line, no whitespace.
+attr-dev
+llvm
+llvm-dev
+ncurses-dev
+pkgconfig(ncurses)
+pkgconfig(x11)
+pkgconfig(zlib)

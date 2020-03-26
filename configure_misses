@@ -1,3 +1,4 @@
+Configure miss: whether sys/types.h defines makedev
 Configure miss: sys/utime.h usability
 Configure miss: sys/utime.h presence
 Configure miss: libproc.h usability
@@ -31,6 +32,9 @@ Configure miss: checklist.h
 Configure miss: pathconf.h usability
 Configure miss: pathconf.h presence
 Configure miss: pathconf.h
+Configure miss: attr/xattr.h usability
+Configure miss: attr/xattr.h presence
+Configure miss: attr/xattr.h
 Configure miss: sys/extattr.h usability
 Configure miss: sys/extattr.h presence
 Configure miss: sys/extattr.h
@@ -38,6 +42,7 @@ Configure miss: sys/vfstab.h usability
 Configure miss: sys/vfstab.h presence
 Configure miss: sys/vfstab.h
 Configure miss: getfsstat
+Configure miss: stime
 Configure miss: struct stat.st_atimespec
 Configure miss: struct kinfo_proc.kp_proc
 Configure miss: CommonCrypto/CommonDigest.h usability
