@@ -4,7 +4,7 @@
 #
 Name     : mono
 Version  : 5.12.0.226
-Release  : 8
+Release  : 9
 URL      : http://download.mono-project.com/sources/mono/mono-5.12.0.226.tar.bz2
 Source0  : http://download.mono-project.com/sources/mono/mono-5.12.0.226.tar.bz2
 Summary  : Mono Runtime
@@ -106,11 +106,11 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1585180810
+export SOURCE_DATE_EPOCH=1618882787
 export GCC_IGNORE_WERROR=1
 export CFLAGS="$CFLAGS -fno-lto "
-export FCFLAGS="$CFLAGS -fno-lto "
-export FFLAGS="$CFLAGS -fno-lto "
+export FCFLAGS="$FFLAGS -fno-lto "
+export FFLAGS="$FFLAGS -fno-lto "
 export CXXFLAGS="$CXXFLAGS -fno-lto "
 %configure --disable-static --with-sgen \
 --with-ikvm \
@@ -120,7 +120,7 @@ export CXXFLAGS="$CXXFLAGS -fno-lto "
 make  %{?_smp_mflags}
 
 %install
-export SOURCE_DATE_EPOCH=1585180810
+export SOURCE_DATE_EPOCH=1618882787
 rm -rf %{buildroot}
 mkdir -p %{buildroot}/usr/share/package-licenses/mono
 cp %{_builddir}/mono-5.12.0.226/LICENSE %{buildroot}/usr/share/package-licenses/mono/ff00c0290e1e2f66eb2263795becbb7c028e08fb
